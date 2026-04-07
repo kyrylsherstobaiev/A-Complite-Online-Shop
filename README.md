@@ -2,7 +2,28 @@
 
 A full-featured e-commerce platform built with Node.js, Express, MongoDB, and EJS templates.
 
-## 📁 Project Structure
+## 🛠 Tech Stack
+
+- **Backend:** Node.js, Express
+- **Database:** MongoDB (native driver)
+- **Templating:** EJS
+- **Authentication:** express-session + MongoDB session store
+- **Security:** CSRF protection, bcryptjs password hashing
+- **File Upload:** Multer
+- **Dev Tools:** Nodemon (auto-restart)
+
+## 🚀 Features
+
+- User authentication (register/login)
+- Product catalog with search & filtering
+- Shopping cart management
+- Order processing & history
+- Admin panel for product/order management
+- Image upload for products
+- CSRF protection
+- Session-based cart
+
+- ## 📁 Project Structure
 
 ```
 ├── app.js                 # Main application entry point
@@ -44,27 +65,6 @@ A full-featured e-commerce platform built with Node.js, Express, MongoDB, and EJ
     ├── customer/          # Customer-facing views
     └── shared/            # Partials (header, footer, etc.)
 ```
-
-## 🛠 Tech Stack
-
-- **Backend:** Node.js, Express
-- **Database:** MongoDB (native driver)
-- **Templating:** EJS
-- **Authentication:** express-session + MongoDB session store
-- **Security:** CSRF protection, bcryptjs password hashing
-- **File Upload:** Multer
-- **Dev Tools:** Nodemon (auto-restart)
-
-## 🚀 Features
-
-- User authentication (register/login)
-- Product catalog with search & filtering
-- Shopping cart management
-- Order processing & history
-- Admin panel for product/order management
-- Image upload for products
-- CSRF protection
-- Session-based cart
 
 ## 📦 Installation
 
